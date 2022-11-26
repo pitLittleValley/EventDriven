@@ -10,7 +10,7 @@
     <groupId>com.eventdriven.axon.demo.core</groupId>
     <artifactId>core</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>core</name>
+    <name>Core</name>
     <description>core</description>
     <properties>
     </properties>

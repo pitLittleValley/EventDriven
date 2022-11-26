@@ -3,11 +3,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <modules>
-        <module>core</module>
+        <module>Core</module>
         <module>ProductService</module>
         <module>DiscoveryServer</module>
         <module>ApiGateway</module>
         <module>OrdersService</module>
+        <module>UsersService</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -56,6 +57,12 @@
                 <artifactId>h2</artifactId>
                 <version>2.1.214</version>
                 <scope>runtime</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.axonframework</groupId>
+                <artifactId>axon-spring-boot-starter</artifactId>
+                <version>4.5</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

@@ -3,7 +3,6 @@ package com.eventdriven.axon.demo.command;
 import com.eventdriven.axon.demo.core.commands.ReserveProductCommand;
 import com.eventdriven.axon.demo.core.events.ProductCreatedEvent;
 import com.eventdriven.axon.demo.core.events.ProductReservedEvent;
-
 import org.axonframework.commandhandling.CommandHandler;
 import org.axonframework.eventsourcing.EventSourcingHandler;
 import org.axonframework.modelling.command.AggregateIdentifier;
