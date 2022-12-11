@@ -1,10 +1,10 @@
 package com.eventdriven.axon.demo.core.query;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
-import org.axonframework.spring.eventsourcing.SpringAggregateSnapshotter;
 import org.springframework.stereotype.Component;
 
-@Component
+@AllArgsConstructor
 @Data
 public class FetchUserPaymentDetailsQuery {
 
