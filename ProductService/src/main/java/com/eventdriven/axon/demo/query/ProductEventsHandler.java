@@ -9,9 +9,9 @@ import org.springframework.stereotype.Component;
 
 @Component
 // Also called ProductProjection
-public class ProductEventHandler {
+public class ProductEventsHandler {
 
-    public ProductEventHandler(ProductRepository productRepository) {
+    public ProductEventsHandler(ProductRepository productRepository) {
         this.productRepository = productRepository;
     }
 
